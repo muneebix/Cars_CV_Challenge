@@ -2,7 +2,7 @@
 Dataset path= https://ai.stanford.edu/~jkrause/cars/car_dataset.html
 
 
-Run Pipeline.py with arg mode train/test
+Run Pipeline.py -m test/train -d 'diretcory for images 'with arg mode train/test
 
 Data Preprocessing:
 
