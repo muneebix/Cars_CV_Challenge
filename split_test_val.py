@@ -72,7 +72,7 @@ def val_test_split():
     for row in val_set.iterrows():
         imagename=row[1]['name']
         labelname=row[1]['label']
-        shutil.move('./test_/'+imagename,'/validation_/'+str(labelname))   
+        shutil.move('./test_/'+imagename,'./validation_/'+str(labelname))   
 
 
        
