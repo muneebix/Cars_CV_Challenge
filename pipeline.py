@@ -16,7 +16,7 @@ import train
 ap = argparse.ArgumentParser()
 ap.add_argument("-m", "--mode", required=True,
 	help="Select a mode for operations; 1. train 2. test")
-ap.add_argument("-d", "--data", required=True,
+ap.add_argument("-d", "--data", required=False,
 	help="data directory")
 args = vars(ap.parse_args())
 train_path='./train_'
